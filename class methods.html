@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+class CreateAccount{
+makeEmail(user)
+{
+  return `${user}@test.com`
+}
+
+}
+
+
+
+class user extends CreateAccount{
+  addUser(user){ 
+    return `${user} added as an User`;
+
+  }
+  deleteUser(){
+
+
+
+  }
+}
+
+
+const U1 = new user();
+console.log(U1.addUser("sibghatullah"))
+console.log(U1.makeEmail("sibghatullah"))
+
+
+
+
+class Employees extends CreateAccount{
+  addEmployee(emp)
+  {
+    return `${emp} is added as an employee`
+  }
+}
+
+
+const E1 = new Employees();
+console.log(E1.addEmployee("Mehmood"));
+console.log(E1.addEmployee("Mehmood"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+  
+</body>
+</html>
